@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test_isalpha.c                                     :+:      :+:    :+:   */
+/*   test_putnbr_fd.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: david <david@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:43:52 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 22:24:39 by david            ###   ########.fr       */
+/*   Updated: 2023/11/08 19:19:55 by david            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft_test.h"
 
-void	print_isalpha(void)
+void	print_putnbr_fd(void)
 {
-	int i = 1;
-	char *func = "isalpha";
-	int c = 32;
-
-	while (c < 127)
-	{
-	printf("%s%d. input : %c\n%s%s =>    %d%s\nft_%s => %d\n\n",
-		white, i++, (char) c, blue, func, isalpha(c) > 0 ? 1 : 0, green, func, ft_isalpha(c) > 0 ? 1 : 0);
-	c++;
-	}
+	ft_putnbr_fd(-2147483648, 1);
+	write(1, "\n", 1);	
+	ft_putnbr_fd(0, 1);
+	write(1, "\n", 1);	
+	ft_putnbr_fd(2147483647, 1);
+	write(1, "\n", 1);
+	ft_putnbr_fd(42, 1);
+	write(1, "\n", 1);
 }

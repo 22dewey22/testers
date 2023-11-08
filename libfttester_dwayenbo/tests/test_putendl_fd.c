@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   test_isalpha.c                                     :+:      :+:    :+:   */
+/*   test_putendl_fd.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: david <david@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:43:52 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 22:24:39 by david            ###   ########.fr       */
+/*   Updated: 2023/11/08 17:36:50 by david            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../libft_test.h"
 
-void	print_isalpha(void)
+void	print_putendl_fd(void)
 {
 	int i = 1;
-	char *func = "isalpha";
-	int c = 32;
+	char *c = "Hello !";
 
-	while (c < 127)
-	{
-	printf("%s%d. input : %c\n%s%s =>    %d%s\nft_%s => %d\n\n",
-		white, i++, (char) c, blue, func, isalpha(c) > 0 ? 1 : 0, green, func, ft_isalpha(c) > 0 ? 1 : 0);
-	c++;
-	}
+	ft_putendl_fd(c, 1);
 }

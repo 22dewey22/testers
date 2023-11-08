@@ -2,22 +2,24 @@
 NAME = libfttest
 
 SRCS =	atoi bzero calloc isalnum isalpha \
-		isascii isdigit isprint itoa memchr
+		isascii isdigit isprint itoa memchr memcmp memcpy \
+		memmove memset putchar_fd putendl_fd putstr_fd putnbr_fd split \
+		strchr strdup striteri
 # 		    lstadd_back lstadd_front \
 # 		lstclear lstdelone lstiter lstlast lstmap lstnew \
-# 		lstsize  memcmp memcpy memmove memset \
-# 		putchar_fd putendl_fd putstr_fd putnbr_fd split strchr strdup striteri \
+# 		lstsize     \
+# 		  \
 # 		strjoin strlcat strlcpy strlen strmapi strncmp strnstr strrchr strtrim substr tolower toupper \
 
 SRCS_FILES = $(addsuffix .c, $(addprefix tests/test_, ${SRCS}))
 
-OBJS = ${SRCS_FILES:.c=.o} main.o libfttest_utils.o
+OBJS = main.o libfttest_utils.o ${SRCS_FILES:.c=.o} 
 
 INCLUDES = /headers/
 
 CC = cc 
 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = 
 
 all: ${NAME}
 
