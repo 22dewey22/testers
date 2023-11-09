@@ -6,13 +6,13 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 06:39:40 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 10:25:44 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 06:56:59 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_TEST_H
 # define LIBFT_TEST_H
-// # include <bsd/string.h>
+# include <bsd/string.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>

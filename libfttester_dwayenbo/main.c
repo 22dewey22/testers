@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: david <david@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 06:39:30 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 22:39:51 by david            ###   ########.fr       */
+/*   Updated: 2023/11/09 08:05:43 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,16 +74,16 @@ void	print_test(char *str)
 		print_strdup();
 	if (!strcmp("striteri", str))
 		print_striteri();
-	// if (!strcmp("strjoin", str))
-	// 	print_strjoin();
-	// if (!strcmp("strlcat", str))
-	// 	print_strlcat();
-	// if (!strcmp("strlcpy", str))
-	// 	print_strlcpy();
-	// if (!strcmp("strlen", str))
-	// 	print_strlen();
-	// if (!strcmp("strmapi", str))
-	// 	print_strmapi();
+	if (!strcmp("strjoin", str))
+		print_strjoin();
+	if (!strcmp("strlcat", str))
+		print_strlcat();
+	if (!strcmp("strlcpy", str))
+		print_strlcpy();
+	if (!strcmp("strlen", str))
+		print_strlen();
+	if (!strcmp("strmapi", str))
+		print_strmapi();
 }
 
 int	main(int ac, char **av)
