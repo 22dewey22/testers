@@ -6,7 +6,7 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 06:39:30 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/09 08:05:43 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 09:41:39 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,74 +16,88 @@ void	print_test(char *str)
 {
 	if (!strcmp("atoi", str))
 		print_atoi();
-	if (!strcmp("bzero", str))
+	else if(!strcmp("bzero", str))
 		print_bzero();
-	if (!strcmp("calloc", str))
+	else if(!strcmp("calloc", str))
 		print_calloc();
-	if (!strcmp("isalnum", str))
+	else if(!strcmp("isalnum", str))
 		print_isalnum();
-	if (!strcmp("isalpha", str))
+	else if(!strcmp("isalpha", str))
 		print_isalpha();
-	if (!strcmp("isascii", str))
+	else if(!strcmp("isascii", str))
 		print_isascii();
-	if (!strcmp("isdigit", str))
+	else if(!strcmp("isdigit", str))
 		print_isdigit();
-	if (!strcmp("isprint", str))
+	else if(!strcmp("isprint", str))
 		print_isprint();
-	if (!strcmp("itoa", str))
+	else if(!strcmp("itoa", str))
 		print_itoa();
-	// if (!strcmp("lstadd_back", str))
+	// else if(!strcmp("lstadd_back", str))
 	// 	print_lstadd_back();
-	// if (!strcmp("lstadd_front", str))
+	// else if(!strcmp("lstadd_front", str))
 	// 	print_lstadd_front();
-	// if (!strcmp("lstclear", str))
+	// else if(!strcmp("lstclear", str))
 	// 	print_lstclear();
-	// if (!strcmp("lstdelone", str))
+	// else if(!strcmp("lstdelone", str))
 	// 	print_lstdelone();
-	// if (!strcmp("lstiter", str))
+	// else if(!strcmp("lstiter", str))
 	// 	print_lstiter();
-	// if (!strcmp("lstmap", str))
+	// else if(!strcmp("lstmap", str))
 	// 	print_lstmap();
-	// if (!strcmp("lstnew", str))
+	// else if(!strcmp("lstnew", str))
 	// 	print_lstnew();
-	// if (!strcmp("lstsize", str))
+	// else if(!strcmp("lstsize", str))
 	// 	print_lstsize();
-	if (!strcmp("memchr", str))
+	else if(!strcmp("memchr", str))
 		print_memchr();
-	if (!strcmp("memcmp", str))
+	else if(!strcmp("memcmp", str))
 		print_memcmp();
-	if (!strcmp("memcpy", str))
+	else if(!strcmp("memcpy", str))
 		print_memcpy();
-	if (!strcmp("memmove", str))
+	else if(!strcmp("memmove", str))
 		print_memmove();
-	if (!strcmp("memset", str))
+	else if(!strcmp("memset", str))
 		print_memset();
-	if (!strcmp("putchar_fd", str))
+	else if(!strcmp("putchar_fd", str))
 		print_putchar_fd();
-	if (!strcmp("putendl_fd", str))
+	else if(!strcmp("putendl_fd", str))
 		print_putendl_fd();
-	if (!strcmp("putnbr_fd", str))
+	else if(!strcmp("putnbr_fd", str))
 		print_putnbr_fd();
-	if (!strcmp("putstr_fd", str))
+	else if(!strcmp("putstr_fd", str))
 		print_putstr_fd();
-	if (!strcmp("split", str))
+	else if(!strcmp("split", str))
 		print_split();
-	if (!strcmp("strchr", str))
+	else if(!strcmp("strchr", str))
 		print_strchr();
-	if (!strcmp("strdup", str))
+	else if(!strcmp("strdup", str))
 		print_strdup();
-	if (!strcmp("striteri", str))
+	else if(!strcmp("striteri", str))
 		print_striteri();
-	if (!strcmp("strjoin", str))
+	else if(!strcmp("strjoin", str))
 		print_strjoin();
-	if (!strcmp("strlcat", str))
+	else if(!strcmp("strlcat", str))
 		print_strlcat();
-	if (!strcmp("strlcpy", str))
+	else if(!strcmp("strlcpy", str))
 		print_strlcpy();
-	if (!strcmp("strlen", str))
+	else if(!strcmp("strlen", str))
 		print_strlen();
-	if (!strcmp("strmapi", str))
+	else if(!strcmp("strmapi", str))
 		print_strmapi();
+	else if(!strcmp("strncmp", str))
+		print_strncmp();
+	else if(!strcmp("strnstr", str))
+		print_strnstr();
+	else if(!strcmp("strrchr", str))
+		print_strrchr();
+	else if(!strcmp("strtrim", str))
+		print_strtrim();
+	else if(!strcmp("substr", str))
+		print_substr();
+	else if(!strcmp("tolower", str))
+		print_tolower();
+	else if(!strcmp("toupper", str))
+		print_toupper();
 }
 
 int	main(int ac, char **av)
