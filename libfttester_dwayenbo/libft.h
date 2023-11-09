@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dwayenbo <dwayenbo@42.fr>                  +#+  +:+       +#+        */
+/*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/14 07:48:06 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/10/31 10:33:43 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 13:00:12 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void				*ft_memset(void *s, int c, size_t n);
 char				*ft_strchr(const char *s, int c);
 size_t				ft_strlcat(char *dest, const char *src, size_t size);
 size_t				ft_strlcpy(char *dest, const char *src, size_t size);
-int					ft_strlen(char const *str);
+size_t				ft_strlen(char const *str);
 int					ft_strncmp(const char *s1, const char *s2, size_t n);
 char				*ft_strrchr(const char *s, int c);
 int					ft_tolower(int c);

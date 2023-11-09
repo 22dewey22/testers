@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   test_isalpha.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: david <david@student.42.fr>                +#+  +:+       +#+        */
+/*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:43:52 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 22:24:39 by david            ###   ########.fr       */
+/*   Updated: 2023/11/09 14:26:42 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	print_isalpha(void)
 {
 	int i = 1;
 	char *func = "isalpha";
-	int c = 32;
+	int c = 100;
 
 	while (c < 127)
 	{

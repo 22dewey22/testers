@@ -6,7 +6,7 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 06:39:30 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/09 10:48:23 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 13:59:01 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,18 +55,20 @@ void	print_test(char *str)
 		print_lstadd_back();
 	else if(!strcmp("lstadd_front", str))
 		print_lstadd_front();
-	// else if(!strcmp("lstclear", str))
-	// 	print_lstclear();
+	else if(!strcmp("lstclear", str))
+		print_lstclear();
 	else if(!strcmp("lstdelone", str))
 		print_lstdelone();
-	// else if(!strcmp("lstiter", str))
-	// 	print_lstiter();
-	// else if(!strcmp("lstmap", str))
-	// 	print_lstmap();
-	// else if(!strcmp("lstnew", str))
-	// 	print_lstnew();
-	// else if(!strcmp("lstsize", str))
-	// 	print_lstsize();
+	else if(!strcmp("lstiter", str))
+		print_lstiter();
+	else if(!strcmp("lstmap", str))
+		print_lstmap();
+	else if(!strcmp("lstnew", str))
+		print_lstnew();
+	else if(!strcmp("lstsize", str))
+		print_lstsize();
+	else if(!strcmp("lstlast", str))
+		print_lstlast();
 	else if(!strcmp("memchr", str))
 		print_memchr();
 	else if(!strcmp("memcmp", str))

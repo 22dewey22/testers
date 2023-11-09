@@ -6,7 +6,7 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:43:52 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 10:22:35 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 14:26:38 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	print_isalnum(void)
 {
 	int i = 1;
 	char *func = "isalnum";
-	int c = 32;
+	int c = 100;
 
 	while (c < 127)
 	{

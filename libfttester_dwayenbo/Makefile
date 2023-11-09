@@ -6,9 +6,7 @@ SRCS =	atoi bzero calloc isalnum isalpha \
 		memmove memset putchar_fd putendl_fd putstr_fd putnbr_fd split \
 		strchr strdup striteri strjoin strlcat strlcpy strlen strmapi \
 		strncmp strnstr strrchr strtrim substr tolower toupper lstadd_back \
-		lstadd_front lstdelone
-# 		lstclear  lstiter lstlast lstmap lstnew \
-# 		lstsize     \
+		lstadd_front lstdelone lstclear lstiter lstlast lstsize lstnew lstmap
 
 SRCS_FILES = $(addsuffix .c, $(addprefix tests/test_, ${SRCS}))
 

@@ -6,7 +6,7 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 08:43:52 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/08 10:32:02 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 14:27:10 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	print_isprint(void)
 {
 	int i = 1;
 	char *func = "isprint";
-	int c = -128;
+	int c = -1;
 
 	while (c < 128)
 	{
