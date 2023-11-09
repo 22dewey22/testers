@@ -6,7 +6,7 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 06:39:40 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/09 09:41:35 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 10:48:55 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,12 @@ void	print_strtrim(void);
 void	print_substr(void);
 void	print_tolower(void);
 void	print_toupper(void);
+void	print_list(t_list *lst_start);
+void	print_lstadd_back(void);
+void	print_lstadd_front(void);
+void	print_lstdelone(void);
+
+
 
 
 

@@ -6,11 +6,30 @@
 /*   By: dwayenbo <dwayenbo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/08 06:39:30 by dwayenbo          #+#    #+#             */
-/*   Updated: 2023/11/09 09:41:39 by dwayenbo         ###   ########.fr       */
+/*   Updated: 2023/11/09 10:48:23 by dwayenbo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft_test.h"
+
+void	print_list(t_list *lst_start)
+{
+	t_list *ptr;
+	int	i = 1;
+
+	ptr = lst_start;
+	if (!lst_start)
+	{
+		printf("There is no list dude\n");
+		return ;
+	}
+	while (ptr)
+	{
+		printf("Elem n %d => %s\n", i, (char *) ptr->content);
+		i++;
+		ptr = ptr->next;
+	}
+}
 
 void	print_test(char *str)
 {
@@ -32,14 +51,14 @@ void	print_test(char *str)
 		print_isprint();
 	else if(!strcmp("itoa", str))
 		print_itoa();
-	// else if(!strcmp("lstadd_back", str))
-	// 	print_lstadd_back();
-	// else if(!strcmp("lstadd_front", str))
-	// 	print_lstadd_front();
+	else if(!strcmp("lstadd_back", str))
+		print_lstadd_back();
+	else if(!strcmp("lstadd_front", str))
+		print_lstadd_front();
 	// else if(!strcmp("lstclear", str))
 	// 	print_lstclear();
-	// else if(!strcmp("lstdelone", str))
-	// 	print_lstdelone();
+	else if(!strcmp("lstdelone", str))
+		print_lstdelone();
 	// else if(!strcmp("lstiter", str))
 	// 	print_lstiter();
 	// else if(!strcmp("lstmap", str))
